@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coke site.in </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+<header>
+    <a href="#"><img src="logo copy.png" class="logo">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products </a></li>
+        <li><a href="https://www.pepsi.com/#!">What's new </a></li>
+        <li><a href="#"> News Letter  </a></li>
+        <li><a href="#"> Buy </a></li>
+        <li><a href="#"> Contact </a></li>
+        </ul>
+</header>
+<div class="content">
+<div class="textbox">
+    <h2 class="2h">That's What <br><span>I Like</span></h2>
+    <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing <br>
+    Corrupti, sapiente nisi nobis animi molestiae vitae magnam numquam quos. <br>
+    At quidem voluptas assumenda. Dolor ea nobis id repellendus saepe,
+     voluptatem consectetur?  <br>
+     SOFT DRINK NAHI HA TUFAN 
+    </p>
+    <a href = "https://www.pepsi.com/#!products">View all products </a>
+    </div>
+    <div class="imagebox">
+        <img src="pepsi001.png" class="pepsi" >
+    </div>
+</div>
+<ul class="thumb">
+<li><img src="pepsi001.png" onclick="imgSlider('pepsi001.png');changeBgcolor('#0062be')"></li>
+<li><img src="pepsi002.png" onclick="imgSlider('pepsi002.png');changeBgcolor('#e60c2c')" ></li>
+<li><img src="pepsi003.png"  onclick="imgSlider('pepsi003.png');changeBgcolor('#1e1e1e')"></li>
+</ul>
+
+
+<ul class="sci">
+<li><a href="https://www.facebook.com/pepsi/"><img src="instagram.png" ></a></li>
+<li><a href="https://twitter.com/pepsi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" ></a></li>
+<li><a href="https://www.instagram.com/pepsi/?hl=en"><img src="facebook.png" ></a></li>
+</ul>
+    </section>
+    </body>
+   <script>
+  alert( 'This products are made by Arka.pvt.ltd')
+
+function imgSlider(anything) {
+    document.querySelector('.pepsi') .src=anything;   }
+
+    function changeBgcolor(color) {
+  const sec =document.querySelector('.sec') ;
+sec.style.background =color;
+ }
+
+    
+   </script>
+   
+</html>
